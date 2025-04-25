@@ -7,4 +7,4 @@ str (Text)
 print(10 % 4) = 2
 fruta = 'banana'
 
-print(fruta)
+print('fruta')
