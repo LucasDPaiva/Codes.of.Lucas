@@ -1,5 +1,5 @@
 print(type('Olá mundo'))
-int (Number inteiro)
+int (Number Inteiro)
 float (Number Decimal)
 str (Text)
 # - Transformar a linha de código não funcional
