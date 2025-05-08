@@ -16,6 +16,10 @@ angulo03 = int(input('Informe o TERCEIRO ângulo positivo:'))
 
 Soma = angulo01 + angulo02 + angulo03 
 
+if Soma < 180 or Soma > 180:
+    sys.exit('nao é triangulo')
+ 
+
 
 
 
