@@ -12,8 +12,9 @@ if etapa1 < 0 or etapa1 > 100:
     sys.exit('ERRO: Nota Etapa 2 Inválida. Informe a nota entre 0 e 100.')
 
 # Calculando a média
-média = (etapa1 * 2 + etapa2 * 3) / 5
-print(f'Média do aluno {média:.0f}')
+média = round( (etapa1 * 2 + etapa2 * 3) / 5, 0)
+print(f'Média do aluno {média}')
+# print(f'Média do aluno {média:.0f}')
 
 # Verificando a situação do aluno
 if média >= 60:
